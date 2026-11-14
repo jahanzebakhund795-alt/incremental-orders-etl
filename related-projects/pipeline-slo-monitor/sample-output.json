@@ -1,0 +1,7 @@
+{
+  "error_budget_burn_rate": 66.66666666666661,
+  "freshness_alert": false,
+  "freshness_seconds": 100,
+  "good_event_ratio": 0.3333333333333333,
+  "p95_ms": 700
+}

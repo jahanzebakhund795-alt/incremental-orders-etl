@@ -1,0 +1,30 @@
+{
+  "tasks": {
+    "extract": {
+      "depends": [],
+      "fail_first": 1,
+      "retries": 1
+    },
+    "validate": {
+      "depends": [
+        "extract"
+      ],
+      "fail_first": 0,
+      "retries": 0
+    },
+    "publish": {
+      "depends": [
+        "validate"
+      ],
+      "fail_first": 2,
+      "retries": 0
+    },
+    "dashboard": {
+      "depends": [
+        "publish"
+      ],
+      "fail_first": 0,
+      "retries": 0
+    }
+  }
+}

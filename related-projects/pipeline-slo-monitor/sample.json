@@ -1,0 +1,23 @@
+{
+  "target": 0.99,
+  "latency_limit_ms": 500,
+  "now": 1200,
+  "freshness_limit_seconds": 120,
+  "runs": [
+    {
+      "ok": true,
+      "latency_ms": 100,
+      "completed_at": 1000
+    },
+    {
+      "ok": true,
+      "latency_ms": 700,
+      "completed_at": 1100
+    },
+    {
+      "ok": false,
+      "latency_ms": 200,
+      "completed_at": 1150
+    }
+  ]
+}

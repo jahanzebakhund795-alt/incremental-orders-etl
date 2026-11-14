@@ -1,0 +1,20 @@
+{
+  "attempts": {
+    "dashboard": 0,
+    "extract": 2,
+    "publish": 1,
+    "validate": 1
+  },
+  "order": [
+    "extract",
+    "validate",
+    "publish",
+    "dashboard"
+  ],
+  "states": {
+    "dashboard": "blocked",
+    "extract": "success",
+    "publish": "failed",
+    "validate": "success"
+  }
+}
