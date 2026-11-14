@@ -1,0 +1,28 @@
+{
+  "batches": [
+    [
+      {
+        "id": "o1",
+        "amount_cents": 1200,
+        "version": 1
+      },
+      {
+        "id": "o2",
+        "amount_cents": 700,
+        "version": 1
+      }
+    ],
+    [
+      {
+        "id": "o1",
+        "amount_cents": 1500,
+        "version": 2
+      },
+      {
+        "id": "o1",
+        "amount_cents": 999,
+        "version": 1
+      }
+    ]
+  ]
+}
