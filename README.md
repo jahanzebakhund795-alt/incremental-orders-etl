@@ -43,3 +43,5 @@ Additional self-contained demonstrations aligned with related resume experience.
 
 - [Pipeline SLO Monitor](related-projects/pipeline-slo-monitor/README.md)
 - [Dependency Aware ETL Runner](related-projects/dependency-aware-etl-runner/README.md)
+
+[Browse all 20 published portfolio projects](PORTFOLIO.md).
